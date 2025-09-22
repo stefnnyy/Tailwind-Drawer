@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overlay</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="main-section">
+      <div class="overlay">
+        <div class="top-content">
+          <!-- HEADER CONTAINER -->
+          <div class="header-container">
+            <div class="title-icon">
+              <div class="title"><h4>New project</h4></div>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="header-text">
+              <p>
+                Get started by filing in the information below to create your
+                new project
+              </p>
+            </div>
+          </div>
+          <!-- INPUT CONTAINER -->
+          <div class="input-container">
+            <div class="project">
+              <label for="project">Project Name</label>
+              <input class="project-input" type="text" />
+            </div>
+            <div class="description">
+              <label for="description">Description</label>
+              <textarea
+                class="textarea-input"
+                name="description"
+                id="description"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+          <!-- TEAM CONTAINER -->
+          <div class="team">
+            <div class="team-members"><h4>Team Members</h4></div>
+            <div class="avatars">
+              <div class="image-wrap">
+                <img
+                  src="./Images/photo-1472099645785-5658abf4ff4e (1).avif"
+                  alt=""
+                />
+              </div>
+              <div class="image-wrap">
+                <img
+                  src="./Images/photo-1517365830460-955ce3ccd263.avif"
+                  alt=""
+                />
+              </div>
+              <div class="image-wrap">
+                <img
+                  src="./Images/photo-1519345182560-3f2917c472ef.avif"
+                  alt=""
+                />
+              </div>
+              <div class="image-wrap">
+                <img
+                  src="./Images/photo-1463453091185-61582044d556.avif"
+                  alt=""
+                />
+              </div>
+              <div class="image-wrap">
+                <img
+                  src="./Images/photo-1502685104226-ee32379fefbe.avif"
+                  alt=""
+                />
+              </div>
+              <div class="add-container"><i class="fa-solid fa-plus"></i></div>
+            </div>
+          </div>
+          <!-- PRIVACY CONTAINER -->
+          <div class="privacy-container">
+            <div class="privacy-text"><h4>Privacy</h4></div>
+            <div class="radio-wrapper">
+              <label for="radio">
+                <div class="radio-item">
+                  <input type="radio" />
+                  <span class="checkmark"></span>
+                  <div class="text-wrap">
+                    <div class="public-text"><h4>Public access</h4></div>
+                    <div class="public-p">
+                      <p>Everyone with the link will see this project.</p>
+                    </div>
+                  </div>
+                </div>
+              </label>
+              <label for="radio">
+                <div class="radio-item">
+                  <input type="radio" />
+                  <span class="checkmark"></span>
+                  <div class="text-wrap">
+                    <div class="public-text">
+                      <h4>Private to project members</h4>
+                    </div>
+                    <div class="public-p">
+                      <p>
+                        Only members of this project would be able to access.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </label>
+              <label for="radio">
+                <div class="radio-item">
+                  <input type="radio" />
+                  <span class="checkmark"></span>
+                  <div class="text-wrap">
+                    <div class="public-text"><h4>Private to you</h4></div>
+                    <div class="public-p">
+                      <p>You are the only one able to access this project.</p>
+                    </div>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <!-- MORE CONTAINER -->
+          <div class="more">
+            <hr />
+            <div class="copy-link">
+              <div class="link"><i class="fa-solid fa-link"></i></div>
+              <div class="copy-text"><p>Copy link</p></div>
+            </div>
+            <div class="learn-more">
+              <div class="question">
+                <i class="fa-solid fa-circle-question"></i>
+              </div>
+              <div class="learn"><p>Learn more about sharing</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- BUTTON CONTAINER -->
+        <div class="button-wrapper">
+          <div class="cancel-button"><button>Cancel</button></div>
+          <div class="save-button"><button>Save</button></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
